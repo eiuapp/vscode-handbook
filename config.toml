@@ -1,4 +1,4 @@
-baseurl = "https://eiuapp.github.io/github-handbook/"
+baseurl = "https://eiuapp.github.io/vscode-handbook/"
 # languageCode = "zh-cn"
 languageCode = "en-US"
 # defaultContentLanguage = "Cn"
@@ -22,7 +22,7 @@ disablePathToLower = true
 googleAnalytics = "c7442f5794ea2abb71c6ff05dc0b8779"
 
 [params]
-  editURL = "https://github.com/eiuapp/github-handbook/edit/master/content/"
+  editURL = "https://github.com/eiuapp/vscode-handbook/edit/master/content/"
   description = "Documentation for Learn"
   # author = "Mathieu Cornic"
   showVisitedLinks = true
@@ -75,7 +75,7 @@ languageName = "English"
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
 identifier = "ds"
-url = "https://github.com/eiuapp/github-handbook"
+url = "https://github.com/eiuapp/vscode-handbook"
 weight = 10
 
 [social]
