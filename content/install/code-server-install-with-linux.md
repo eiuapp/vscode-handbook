@@ -57,6 +57,28 @@ ubuntu@VM-0-12-ubuntu:~/code-server$
 
 所以，我先尝试其它方式安装吧。
 
+参考：https://github.com/cdr/code-server/issues/232
+
+知道，要正常安装 code-server 必须要有 2GB 的内存。
+
+而且因为，不支持 windows 平台，所以，这里先放弃在 云端 部署了。
+
+尝试在内网的一台机器上运行吧
+
 ### Binaries
 
 https://blog.csdn.net/Granery/article/details/90415636
+
+#### 启动
+
+如果下载的是 2.0 以上版本
+
+```
+./code-server --auth="password"
+```
+
+如果下载的是 1.\* 版本
+
+```
+./code-server
+```
