@@ -1,3 +1,11 @@
+---
+date: 2019-01-08T21:07:13+01:00
+title: 'ubuntu下安装code server'
+weight: 1
+keywords:
+  - code-server
+description: 'ubuntu下安装code server'
+---
 
 安装 [code server](https://github.com/cdr/code-server)
 
@@ -52,6 +60,3 @@ ubuntu@VM-0-12-ubuntu:~/code-server$
 ### Binaries
 
 https://blog.csdn.net/Granery/article/details/90415636
-
-
-
