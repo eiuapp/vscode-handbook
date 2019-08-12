@@ -11,12 +11,22 @@ description: 'ubuntu下安装code server'
 
 ## env
 
+### clond server
+
 - cloud: tencent cloud:
 - os: ubuntu
+- memory: 1GB
+
+### local server
+
+- os: ubuntu
+- memory: 16GB
 
 ## step
 
 ### docker
+
+#### （可跳过）内存要大于2G
 
 ```
 ubuntu@VM-0-12-ubuntu:~/code-server$ docker run -it -p 8443:8443 -v "${PWD}:/home/coder/project" codercom/code-server --allow-http --no-auth
@@ -65,6 +75,21 @@ ubuntu@VM-0-12-ubuntu:~/code-server$
 
 尝试在内网的一台机器上运行吧
 
+#### 内存大于2GB
+
+内网机器内存 16GB, 所以执行：
+
+
+```bash
+cd
+pwd
+ubuntu@utuntu:~$ docker run -d --restart always -p 8443:8443 -v "${PWD}:/home/coder/project" codercom/code-server --allow-http --no-auth
+```
+
+本地 chrome 打开：http://192.168.168.137:8443/ 即可使用（没设置密码登录，要改进）
+
+#### Todo 设置密码登录
+
 ### Binaries
 
 https://blog.csdn.net/Granery/article/details/90415636
@@ -82,3 +107,4 @@ https://blog.csdn.net/Granery/article/details/90415636
 ```
 ./code-server
 ```
+
