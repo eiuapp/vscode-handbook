@@ -1,7 +1,7 @@
 ---
 date: 2019-01-08T21:07:13+01:00
 title: 'ubuntu下安装code server'
-weight: 1
+weight: 10
 keywords:
   - code-server
 description: 'ubuntu下安装code server'
