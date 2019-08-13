@@ -90,6 +90,14 @@ ubuntu@utuntu:~$ docker run -d --restart always -p 8443:8443 -v "${PWD}:/home/co
 
 #### Todo 设置密码登录
 
+#### 问题
+
+以 container 方式启动后的 web 访问，使用的是容器内的coder帐户。
+所以，不能使用 ubuntu系统下原生的 bash 以及其环境变量。
+也就意味着，node, npm, 等实用程序，不再能使用。
+
+这一点来说，不如 remote-ssh 方式。
+
 ### Binaries
 
 https://blog.csdn.net/Granery/article/details/90415636
