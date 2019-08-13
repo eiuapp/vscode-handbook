@@ -68,6 +68,46 @@ https://www.jianshu.com/p/a08219737291
 
 如果您安装了extensions, 但是，并没有 Enable, 则不会上传。
 
+### 哪里看同步了哪些内容？
+
+#### vscode 输出
+
+来一个示例：
+
+```
+CODE SETTINGS SYNC UPLOAD SUMMARY
+Version: 3.4.1
+--------------------
+GitHub Token: GitHubTTTTTTTTTTTTTTTTTTTTTTTToken
+GitHub Gist: GitHubGGGGGGGGGGGGGGGist => 这个就是 gist的编号 https://gist.github.com/eiuapp/GitHubGGGGGGGGGGGGGGGist
+GitHub Gist Type: Secret
+
+Restarting Visual Studio Code may be required to apply color and file icon theme.
+--------------------
+Files Uploaded:
+  extensions.json > extensions.json
+  settings.json > settings.json
+
+Extensions Ignored:
+  No extensions ignored.
+
+Extensions Removed:
+  No extensions removed.
+
+Extensions Added:
+  remote-ssh v0.45.4
+  remote-ssh-edit v0.45.4
+  remote-ssh-explorer v0.45.4
+  remote-wsl v0.39.2
+--------------------
+Done.
+```
+
+#### gist的revisions
+
+1. 找开 gist 后点击 `Code` 边上的 `Revisions` 。或者
+2. 在 gist url 地址后 手工加上 `/revisions`, 回车。即，形如： https://gist.github.com/$account/$gistHash/revisions
+
 ## 问题
 
 ### 如何使用历史某次vscode配置
