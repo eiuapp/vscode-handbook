@@ -59,3 +59,17 @@ https://gitee.com/hjm100/codes/oi5nuevyl82zp3hdtc19g18
 https://www.cnblogs.com/kenz520/p/7416836.html
 
 https://www.jianshu.com/p/a08219737291
+
+## 同步的内容
+
+通过去查看 https://gist.github.com/${githubAccountName}/ 知道 会有一个 cloudSettings 的 gist. 这个gist就是我们的vscode配置啦！
+
+在 extensions.json 部分，通过搜索`metadata`, 得知，显示的只是 Enable 状态的 extensions. 
+
+如果您安装了extensions, 但是，并没有 Enable, 则不会上传。
+
+## 问题
+
+### 如何使用历史某次vscode配置
+
+多次上传后，如果我想使用某一次commit的gist下的vscode配置，应该怎么办？
