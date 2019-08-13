@@ -12,6 +12,7 @@ vs code 所有与安装相关的部分
 ## code server
 
 - https://github.com/cdr/code-server
+- [ubuntu下安装code server](/install/code-server-install-with-linux.html)
 
 ## remote
 
@@ -26,7 +27,8 @@ vs code 所有与安装相关的部分
 ### wsl
 
 - https://code.visualstudio.com/docs/remote/wsl
+- [win10下安装Remote-SSH](/install/remote-ssh.html)
 
 ## sync
 
-- https://github.com/shanalikhan/code-settings-sync
+- [code-settings-sync安装](/install/code-settings-sync.html)
